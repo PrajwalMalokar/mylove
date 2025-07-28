@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beautiful Sakshi ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Animation -->
+    <div class="hearts"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">Prajwal & Sakshi's Love Story ❤️</h1>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#memories" class="nav-link">Memories</a></li>
+                <li><a href="#reasons" class="nav-link">Why I Love You</a></li>
+                <li><a href="#future" class="nav-link">Our Future</a></li>
+                <li><a href="#surprise" class="nav-link">Surprise</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">
+                Hello Beautiful Sakshi! 💕
+            </h1>
+            <p class="hero-subtitle animate-slide-up">
+                This website is my little way of showing you how much you mean to me
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="startJourney()">
+                    Start Our Journey ✨
+                </button>
+                <button class="btn-secondary" onclick="showLoveMessage()">
+                    Send Love Message 💌
+                </button>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-heart">💖</div>
+            <div class="floating-heart">💕</div>
+            <div class="floating-heart">💘</div>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories 📸</h2>
+            <div class="memory-timeline">
+                <div class="memory-item" data-aos="fade-right">
+                    <div class="memory-content">
+                        <h3>First Message 💬</h3>
+                        <p>The day that changed everything. Your first message made my heart skip a beat.</p>
+                        <span class="memory-date">Day 1 of Forever</span>
+                    </div>
+                </div>
+                <div class="memory-item" data-aos="fade-left">
+                    <div class="memory-content">
+                        <h3>First Video Call 📹</h3>
+                        <p>Seeing your beautiful smile for the first time. I knew I was falling for you.</p>
+                        <span class="memory-date">When Distance Disappeared</span>
+                    </div>
+                </div>
+                <div class="memory-item" data-aos="fade-right">
+                    <div class="memory-content">
+                        <h3>First "I Love You" 💗</h3>
+                        <p>Three words that made my world complete. The moment I knew you were my everything.</p>
+                        <span class="memory-date">The Best Day Ever</span>
+                    </div>
+                </div>
+                <div class="memory-item" data-aos="fade-left">
+                    <div class="memory-content">
+                        <h3>Every Day Since 🌟</h3>
+                        <p>Each day with you is a new adventure, a new reason to smile, a new memory to cherish.</p>
+                        <span class="memory-date">Our Ongoing Story</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section id="reasons" class="reasons">
+        <div class="container">
+            <h2 class="section-title">Reasons Why I Love You 💝</h2>
+            <div class="reasons-grid">
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">😍</div>
+                            <h3>Your Smile</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Your smile lights up my entire world. It's the first thing I think about when I wake up and the last thing before I sleep.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">🧠</div>
+                            <h3>Your Intelligence</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>The way you think, your curiosity about the world, and how you challenge me to be better every day amazes me.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">❤️</div>
+                            <h3>Your Heart</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Your kindness, compassion, and the way you care for others shows the beautiful soul you have.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">😂</div>
+                            <h3>Your Laugh</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Your laugh is my favorite sound in the world. Making you laugh is my favorite achievement.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">🌟</div>
+                            <h3>Everything</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Every little thing about you - your quirks, your dreams, your imperfections that make you perfect to me.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reason-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="reason-icon">🔮</div>
+                            <h3>Our Future</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>I love how when I think about my future, I can't imagine it without you in it. You are my forever.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Plans Section -->
+    <section id="future" class="future">
+        <div class="container">
+            <h2 class="section-title">Our Future Together 🌈</h2>
+            <div class="future-content">
+                <div class="future-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🏠</div>
+                        <h3>Our Dream Home</h3>
+                        <p>A cozy place where we can build our life together, filled with love and laughter.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">✈️</div>
+                        <h3>Adventures Together</h3>
+                        <p>Exploring the world hand in hand, creating memories in every corner of the earth.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">👨‍👩‍👧‍👦</div>
+                        <h3>Growing Together</h3>
+                        <p>Whatever the future holds, we'll face it together, growing stronger with each passing day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Surprise Section -->
+    <section id="surprise" class="surprise">
+        <div class="container">
+            <h2 class="section-title">A Special Surprise Just For You 🎁</h2>
+            <div class="surprise-content">
+                <div class="love-letter">
+                    <h3>Click the envelope to read my letter 💌</h3>
+                    <div class="envelope" onclick="openLetter()">
+                        <div class="envelope-flap"></div>
+                        <div class="envelope-body"></div>
+                        <div class="letter">
+                            <p class="letter-content">
+                                My Dearest Love,<br><br>
+                                
+                                Every day with you feels like a fairy tale. You've brought colors to my black and white world, music to my silence, and meaning to my existence.<br><br>
+                                
+                                Sakshi, this little website is just a small token of my infinite love for you. You deserve all the stars in the sky, all the flowers in the world, and all the love in my heart.<br><br>
+                                
+                                Thank you for being you, for choosing me, and for making every day feel like an adventure.<br><br>
+                                
+                                Forever yours,<br>
+                                Prajwal ❤️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="interactive-game">
+                    <h3>Hey Sakshi! Click to generate a reason why you're amazing! ✨</h3>
+                    <button class="reason-generator" onclick="generateReason()">
+                        Tell me why I'm special 💕
+                    </button>
+                    <p id="random-reason" class="generated-reason"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made with 💖 by Prajwal for his Beautiful Love</p>
+            <p>This website is hosted on AWS - because our love deserves the cloud! ☁️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
